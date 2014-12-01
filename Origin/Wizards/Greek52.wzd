@@ -1,0 +1,26 @@
+[GENERAL]
+Name = "Mobus"
+MaxHealth = 750
+MaxMana = 120
+Intelligence = 50
+MagicResistance = 50
+ControlLimit = 14
+CombatModifier = 100
+DifficultyModifier = 100
+AggressiveAttack = 100
+CautiousAttack = 0
+OccupyPowerPoint = 120
+CollectMana = 120
+EvadeDetection = 0
+Scout = 90
+Retreat = 100
+CollectFood = 90
+ProtectWizard = 90
+WizardAnimFile = Greek Male
+
+[START_SPELLS]
+SPELL_01 = TRUE
+SPELL_88 = TRUE
+SPELL_50 = TRUE
+SPELL_74 = TRUE
+SPELL_79 = TRUE

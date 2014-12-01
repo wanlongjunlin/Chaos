@@ -1,0 +1,270 @@
+; wizard specification file for CHAOS.EXE
+
+; a wizard in the game can use either the magic items list OR
+; the spells list (depending on context)
+
+[HEADER]
+ValidWizardFile		= TRUE
+
+; general wizard stats
+[GENERAL]
+Name		= "Cornelius"
+; start & max wizard mana
+MaxMana		= 50
+; start & max wizard health
+MaxHealth	= 200
+
+Intelligence = 45
+MagicResistance = 45
+ControlLimit = 15
+
+
+startTalismans_Law	= 1
+startTalismans_Neutral	= 1
+startTalismans_Chaos	= 1
+
+; list of magic items carried by the wizard
+[START_MAGIC_ITEMS]
+;MITEM_00   = TRUE	; ALECTORIUS
+MITEM_01   = TRUE	; BRIMSTONE
+;MITEM_02   = TRUE	; TINCAL
+MITEM_03   = TRUE	; MANDRAKE
+MITEM_04   = TRUE	; HOLLY
+;MITEM_05   = TRUE	; LAUREL
+;MITEM_06   = TRUE	; PHOSPHORUS
+;MITEM_07   = TRUE	; HEMLOCK
+;MITEM_08   = TRUE	; BELLADONNA
+;MITEM_09   = TRUE	; CLOVER
+;MITEM_10   = TRUE	; GALCTIDES
+;MITEM_11   = TRUE	; BLOODSTONE
+;MITEM_12   = TRUE	; BLUE ZIRCON
+;MITEM_13   = TRUE	; VALERIAN
+;MITEM_14   = TRUE	; SALAMANDERS FEATHER
+;MITEM_15   = TRUE	; CALUNDRONIUS
+;MITEM_16   = TRUE	; SILVER
+;MITEM_17   = TRUE	; MISTLETOE
+;MITEM_18   = TRUE	; IRON
+;MITEM_19   = TRUE	; SARDONYX
+;MITEM_20   = TRUE	; DIAMOND
+
+
+; list of spells carried by the wizard
+[START_SPELLS]
+;SPELL_00   = TRUE	;ST_PLAYER_WIZARD 
+SPELL_01   = TRUE	;ST_BROWNIE                     **IMPLEMENTED**
+;SPELL_02   = TRUE	;ST_CENTAUR                     **IMPLEMENTED**
+;SPELL_03   = TRUE	;ST_ELF                         **IMPLEMENTED**
+;SPELL_04   = TRUE	;ST_GRIFFIN                     **IMPLEMENTED**
+;SPELL_05   = TRUE	;ST_HERO                        **IMPLEMENTED**
+;SPELL_06   = TRUE	;ST_PHEONIX                     **IMPLEMENTED**
+;SPELL_07   = TRUE	;ST_UNICORN                     **IMPLEMENTED**
+;SPELL_08   = TRUE	;ST_BLACK_DOG                   **IMPLEMENTED**
+;SPELL_09   = TRUE	;ST_MANTICORE                   **IMPLEMENTED**
+;SPELL_10   = TRUE	;ST_REDCAP                      **IMPLEMENTED**
+;SPELL_11   = TRUE	;ST_SKELETON                    **IMPLEMENTED**
+;SPELL_12   = TRUE	;ST_VAMPIRE                     **IMPLEMENTED**
+;SPELL_13   = TRUE	;ST_WRAITH                      **IMPLEMENTED**
+SPELL_14   = TRUE	;ST_ZOMBIE                      **IMPLEMENTED**
+;SPELL_15   = TRUE	;ST_BAT                         **IMPLEMENTED**
+;SPELL_16   = TRUE	;ST_BASILISK                    **IMPLEMENTED**
+;SPELL_17   = TRUE	;ST_CROCODILE                   **IMPLEMENTED**
+;SPELL_18   = TRUE	;ST_DRAGON                      **IMPLEMENTED**
+;SPELL_19   = TRUE	;ST_FAUN                        **IMPLEMENTED**
+;SPELL_20   = TRUE	;ST_CHAMP_OF_LAW                  
+;SPELL_21   = TRUE	;ST_TROLL                       **IMPLEMENTED**
+;SPELL_22   = TRUE	;ST_EYE                         **IMPLEMENTED**
+;SPELL_23   = TRUE	;ST_CHAMP_OF_CHAOS
+;SPELL_24   = TRUE	;ST_UNUSED1     
+;SPELL_25   = TRUE	;ST_UNUSED2
+;SPELL_26   = TRUE	;ST_UNUSED3
+;SPELL_27   = TRUE	;ST_UNUSED4
+;SPELL_28   = TRUE	;ST_UNUSED5
+;SPELL_29   = TRUE	;ST_UNUSED6
+;SPELL_30   = TRUE	;ST_UNUSED7
+;SPELL_31   = TRUE	;ST_UNUSED8
+;SPELL_32   = TRUE	;ST_UNUSED9
+;SPELL_33   = TRUE	;ST_GOOEY_BLOB                  **IMPLEMENTED**
+;SPELL_34   = TRUE	;ST_METOR_SHOWER                **IMPLEMENTED**
+;SPELL_35   = TRUE	;ST_TANGLE_VINE
+;SPELL_37   = TRUE	;ST_UNSUMMONDELAY (trap spell)  **IMPLEMENTED**
+;SPELL_37   = TRUE	;ST_UNUSED11
+;SPELL_38   = TRUE	;ST_BURY                        **IMPLEMENTED**
+;SPELL_39   = TRUE	;ST_UNUSED12
+;SPELL_40   = TRUE	;ST_UNUSED13
+;SPELL_41   = TRUE	;ST_CURE                        **IMPLEMENTED**
+;SPELL_42   = TRUE	;ST_BLOOD_LUST                  **IMPLEMENTED**
+;SPELL_43   = TRUE	;ST_DISBELIEVE                  **IMPLEMENTED**
+;SPELL_44   = TRUE	;ST_EARTHBLIND                  **IMPLEMENTED**
+;SPELL_45   = TRUE	;ST_UNUSED14
+;SPELL_46   = TRUE	;ST_GORGON_STARE                **IMPLEMENTED**
+;SPELL_47   = TRUE	;ST_UNUSED15
+;SPELL_48   = TRUE	;ST_UNUSED16
+;SPELL_49   = TRUE	;ST_UNUSED17
+;SPELL_50   = TRUE	;ST_LURE                        **IMPLEMENTED**
+;SPELL_51   = TRUE	;ST_UNUSED18
+;SPELL_52   = TRUE	;ST_RAISE_DEAD                  **IMPLEMENTED**
+;SPELL_53   = TRUE	;ST_UNUSED19
+;SPELL_54   = TRUE	;ST_SUBVERSION                  **IMPLEMENTED**
+;SPELL_55   = TRUE	;ST_TELEPORT                    **IMPLEMENTED**
+;SPELL_56   = TRUE	;ST_UNUSED20
+;SPELL_57   = TRUE	;ST_UNUSED21
+;SPELL_58   = TRUE	;ST_FIRE                        **IMPLEMENTED**
+;SPELL_59   = TRUE	;ST_UNUSED22
+;SPELL_60   = TRUE	;ST_UNSUMMON                    **IMPLEMENTED**
+;SPELL_61   = TRUE	;ST_UNUSED23
+;SPELL_62   = TRUE	;ST_EXPLODE                     **IMPLEMENTED**
+;SPELL_63   = TRUE	;ST_UNUSED24
+;SPELL_64   = TRUE	;ST_UNUSED25
+;SPELL_65   = TRUE	;ST_PESTILENCE                  **IMPLEMENTED**
+;SPELL_66   = TRUE	;ST_UNUSED26
+;SPELL_67   = TRUE	;ST_UNUSED27
+;SPELL_68   = TRUE	;ST_WINDS_OF_JUSTICE            **IMPLEMENTED**
+;SPELL_69   = TRUE	;ST_TOTEM_OF_LIFE               **IMPLEMENTED**
+;SPELL_70   = TRUE	;ST_TOTEM_OF_GUARDING           **IMPLEMENTED**
+SPELL_71   = TRUE	;ST_FIREBALL                    **IMPLEMENTED**
+;SPELL_72   = TRUE	;ST_LIGHTNING                   **IMPLEMENTED**
+;SPELL_73   = TRUE	;ST_MAGIC_SPHERE                **IMPLEMENTED**
+;SPELL_74   = TRUE	;ST_IRON_SKIN                   **IMPLEMENTED**
+;SPELL_75   = TRUE	;ST_TORNADO                     **IMPLEMENTED**
+;SPELL_76   = TRUE	;ST_TERROR                     **IMPLEMENTED**
+;SPELL_77   = TRUE	;ST_MAGIC_MIST                 **IMPLEMENTED**
+;SPELL_78   = TRUE	;ST_MAGIC_BOW                  **IMPLEMENTED**
+;SPELL_79   = TRUE	;ST_LUCIFERS_FAREWELL          **IMPLEMENTED**
+;SPELL_80   = TRUE	;ST_LEVITATE                   **IMPLEMENTED**
+;SPELL_81   = TRUE	;ST_JUDGEMENT                  **IMPLEMENTED**
+;SPELL_82   = TRUE	;ST_HASTE                      **IMPLEMENTED**
+;SPELL_83   = TRUE	;ST_MAGIC_SWORD                **IMPLEMENTED**
+;SPELL_84   = TRUE	;ST_MAGIC_WINGS                 **IMPLEMENTED**
+;SPELL_85   = TRUE	;ST_INVISIBILITY                **IMPLEMENTED**
+;SPELL_86   = TRUE	;ST_CREATURE_ILLUSION           **IMPLEMENTED**
+;SPELL_87   = TRUE	;ST_CHAIN_LIGHTNING             **IMPLEMENTED**
+;SPELL_88   = TRUE	;ST_STORM_LIGHTNING             **IMPLEMENTED**
+;SPELL_89   = TRUE	;ST_SUPER_FIREBALL              **IMPLEMENTED**
+;SPELL_90   = TRUE	;ST_CREATURE_EXPLODE(trap spell)**IMPLEMENTED**
+;SPELL_91   = TRUE	;ST_TOTEM_FEAR                  **IMPLEMENTED**
+;SPELL_92   = TRUE	;ST_LORELEI                     **IMPLEMENTED**
+
+
+; the wizards starting OBJECTs
+[START_OBJECTS]
+;OBJECT_00 = TRUE                    ;MEAT
+;OBJECT_01 = TRUE                    ;BREAD
+;OBJECT_02 = TRUE                    ;FRUIT
+;OBJECT_03 = TRUE                    ;FISH
+;OBJECT_04 = TRUE                    ;WINE                    
+;OBJECT_05 = TRUE                    ;WATER BOTTLE
+;OBJECT_06 = TRUE                    ;PROVISION PACK
+;OBJECT_07 = TRUE                    ;QUILL
+;OBJECT_08 = TRUE                    ;SPORE OF SLUMBER               
+;OBJECT_09 = TRUE                    ;SPORE OF STINGING
+;OBJECT_10 = TRUE                    ;SPORE OF SLAYING
+;OBJECT_11 = TRUE                    ;CAMPANIFORM BELL
+;OBJECT_12 = TRUE                    ;DRAGONS TEETH
+;OBJECT_13 = TRUE                    ;DRUM OF CONVOCATION
+;OBJECT_14 = TRUE                    ;EVIL EYE AMULET
+;OBJECT_15 = TRUE                    ;GLASSES OF VISION
+;OBJECT_16 = TRUE                    ;HAND OF GLORY
+;OBJECT_17 = TRUE                    ;HEX PENDANT
+;OBJECT_18 = TRUE                    ;HOLY WATER
+;OBJECT_19 = TRUE                    ;MANA SPRITE
+;OBJECT_20 = TRUE                    ;POISON
+;OBJECT_21 = TRUE                    ;RING OF MIGHT
+;OBJECT_22 = TRUE                    ;RING OF PROTECTION
+;OBJECT_23 = TRUE                    ;RUBY AMULET
+;OBJECT_24 = TRUE                    ;SALAMANDER BOOTS
+;OBJECT_25 = TRUE                    ;SCREAMING SKULL
+;OBJECT_26 = TRUE                    ;SEVEN LEAGUE BOOTS
+;OBJECT_27 = TRUE                    ;SYRINX PIPES
+;OBJECT_28 = TRUE                    ;SUMMON BROWNIE
+;OBJECT_29 = TRUE                    ;SUMMON CENTAUR
+;OBJECT_30 = TRUE                    ;SUMMON ELF
+;OBJECT_31 = TRUE                    ;SUMMON GRIFFIN
+;OBJECT_32 = TRUE                    ;SUMMON HERO
+;OBJECT_33 = TRUE                    ;SUMMON PHOENIX
+;OBJECT_34 = TRUE                    ;SUMMON UNICORN
+;OBJECT_35 = TRUE                    ;SUMMON BLACK_DOG
+;OBJECT_36 = TRUE                    ;SUMMON MANTICORE
+;OBJECT_37 = TRUE                    ;SUMMON REDCAP
+;OBJECT_38 = TRUE                    ;SUMMON SKELETON
+;OBJECT_39 = TRUE                    ;SUMMON VAMPIRE
+;OBJECT_40 = TRUE                    ;SUMMON WRAITH
+;OBJECT_41 = TRUE                    ;SUMMON ZOMBIE
+;OBJECT_42 = TRUE                    ;SUMMON BAT
+;OBJECT_43 = TRUE                    ;SUMMON BASILISK
+;OBJECT_44 = TRUE                    ;SUMMON CROCODILE
+;OBJECT_45 = TRUE                    ;SUMMON DRAGON
+;OBJECT_46 = TRUE                    ;SUMMON FAUN
+;OBJECT_47 = TRUE                    ;SUMMON SNAKE
+;OBJECT_48 = TRUE                    ;SUMMON TROLL
+;OBJECT_49 = TRUE                    ;SUMMON EYE
+;OBJECT_50 = TRUE                    ;CHEST
+;OBJECT_51 = TRUE                    ;KEY1
+;OBJECT_52 = TRUE                    ;KEY2
+;OBJECT_53 = TRUE                    ;SCROLL1
+;OBJECT_54 = TRUE                    ;SCROLL2
+;OBJECT_55 = TRUE                    ;SCROLL3
+;OBJECT_56 = TRUE                    ;SCROLL4
+;OBJECT_57 = TRUE                    ;SKULLS
+;OBJECT_58 = TRUE                    ;KEY3
+;OBJECT_59 = TRUE                    ;KEY4
+;OBJECT_60 = TRUE                    ;KEY5
+;OBJECT_61 = TRUE                    ;PLACE OF POWER
+;OBJECT_62 = TRUE                    ; BROWNIE_EFFIGY
+;OBJECT_63 = TRUE                    ; CENTAUR_EFFIGY
+;OBJECT_64 = TRUE                    ; ELF_EFFIGY
+;OBJECT_65 = TRUE                    ; GRIFFIN_EFFIGY
+;OBJECT_66 = TRUE                    ; HERO_EFFIGY
+;OBJECT_67 = TRUE                    ; PHOENIX_EFFIGY
+;OBJECT_68 = TRUE                    ; UNICORN_EFFIGY
+;OBJECT_69 = TRUE                    ; BLACK_DOG_EFFIGY
+;OBJECT_70 = TRUE                    ; MANTICORE_EFFIGY
+;OBJECT_71 = TRUE                    ; REDCAP_EFFIGY
+;OBJECT_72 = TRUE                    ; SKELETON_EFFIGY
+;OBJECT_73 = TRUE                    ; VAMPIRE_EFFIGY
+;OBJECT_74 = TRUE                    ; WRAITH_EFFIGY
+;OBJECT_75 = TRUE                    ; ZOMBIE_EFFIGY
+;OBJECT_76 = TRUE                    ; BAT_EFFIGY
+;OBJECT_77 = TRUE                    ; BASILISK_EFFIGY
+;OBJECT_78 = TRUE                    ; CROCODILE_EFFIGY
+;OBJECT_79 = TRUE                    ; DRAGON_EFFIGY
+;OBJECT_80 = TRUE                    ; FAUN_EFFIGY
+;OBJECT_81 = TRUE                    ; CHAMP_OF_LAW_EFFIGY
+;OBJECT_82 = TRUE                    ; TROLL_EFFIGY
+;OBJECT_83 = TRUE                    ; EYE_EFFIGY
+;OBJECT_84 = TRUE                    ; CHAMP_OF_CHAOS_EFFIGY
+;OBJECT_85 = TRUE                    ; UNUSED3
+;OBJECT_86 = TRUE                    ; UNUSED4
+;OBJECT_87 = TRUE                    ; UNUSED5
+;OBJECT_88 = TRUE                    ; UNUSED6
+;OBJECT_89 = TRUE                    ; UNUSED7
+;OBJECT_90 = TRUE                    ; UNUSED8
+;OBJECT_91 = TRUE                    ; UNUSED9
+;OBJECT_92 = TRUE                    ; UNUSED10
+;OBJECT_93 = TRUE                    ; UNUSED11
+;OBJECT_94 = TRUE                    ; UNUSED12
+;OBJECT_95 = TRUE                    ; UNUSED13
+;OBJECT_96 = TRUE                    ; UNUSED14
+;OBJECT_97 = TRUE                    ; ALECTORIUS              // magic item objects
+;OBJECT_98 = TRUE                    ; BRIMSTONE
+;OBJECT_99 = TRUE                    ; TINCAL
+;OBJECT_100 = TRUE                   ; MANDRAKE
+;OBJECT_101 = TRUE                   ; HOLLY
+;OBJECT_102 = TRUE                   ; LAUREL
+;OBJECT_103 = TRUE                   ; PHOSPHORUS
+;OBJECT_104 = TRUE                   ; HEMLOCK
+;OBJECT_105 = TRUE                   ; BELLADONNA
+;OBJECT_106 = TRUE                   ; CLOVER
+;OBJECT_107 = TRUE                   ; GALCTIDES
+;OBJECT_108 = TRUE                   ; BLOODSTONE
+;OBJECT_109 = TRUE                   ; BLUE_ZIRCON
+;OBJECT_110 = TRUE                   ; VALERIAN
+;OBJECT_111 = TRUE                   ; SALAMANDERS_FEATHER
+;OBJECT_112 = TRUE                   ; CALUNDRONIUS
+;OBJECT_113 = TRUE                   ; SILVER
+;OBJECT_114 = TRUE                   ; MISTLETOE
+;OBJECT_115 = TRUE                   ; IRON
+;OBJECT_116 = TRUE                   ; SARDONYX
+;OBJECT_117 = TRUE                   ; DIAMOND
+;OBJECT_117 = TRUE                   ; PHILOSOPHERS_STONE1
+;OBJECT_117 = TRUE                   ; PHILOSOPHERS_STONE2
+

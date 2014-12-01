@@ -1,0 +1,28 @@
+[GENERAL]
+Name = "Spinoza"
+MaxHealth = 820
+MaxMana = 160
+Intelligence = 50
+MagicResistance = 50
+ControlLimit = 12
+CombatModifier = 100
+DifficultyModifier = 100
+AggressiveAttack = 100
+CautiousAttack = 0
+OccupyPowerPoint = 120
+CollectMana = 120
+EvadeDetection = 0
+Scout = 90
+Retreat = 100
+CollectFood = 90
+ProtectWizard = 90
+WizardAnimFile = Med02
+
+[START_SPELLS]
+SPELL_19 = TRUE
+SPELL_03 = TRUE
+SPELL_62 = TRUE
+SPELL_60 = TRUE
+SPELL_38 = TRUE
+SPELL_91 = TRUE
+SPELL_54 = TRUE

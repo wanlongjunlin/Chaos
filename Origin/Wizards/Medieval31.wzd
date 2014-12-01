@@ -1,0 +1,28 @@
+[GENERAL]
+Name = "Eliavres"
+MaxHealth = 880
+MaxMana = 225
+Intelligence = 50
+MagicResistance = 50
+ControlLimit = 15
+CombatModifier = 100
+DifficultyModifier = 100
+AggressiveAttack = 100
+CautiousAttack = 0
+OccupyPowerPoint = 120
+CollectMana = 120
+EvadeDetection = 0
+Scout = 90
+Retreat = 80
+CollectFood = 90
+ProtectWizard = 90
+WizardAnimFile = Medwizard01
+
+[START_SPELLS]
+SPELL_06 = TRUE
+SPELL_04 = TRUE
+SPELL_88 = TRUE
+SPELL_44 = TRUE
+SPELL_76 = TRUE
+SPELL_78 = TRUE
+SPELL_43 = TRUE

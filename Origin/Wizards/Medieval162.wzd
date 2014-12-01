@@ -1,0 +1,33 @@
+[GENERAL]
+Name = "NeutralOverlord"
+MaxHealth = 2500
+MaxMana = 1250
+Intelligence = 200
+MagicResistance = 200
+ControlLimit = 15
+CombatModifier = 750
+DifficultyModifier = 100
+AggressiveAttack = 100
+CautiousAttack = 0
+OccupyPowerPoint = 120
+CollectMana = 120
+EvadeDetection = 0
+Scout = 5
+Retreat = 100
+CollectFood = 0
+ProtectWizard = 90
+WizardAnimFile = Overlord
+
+[START_SPELLS]
+SPELL_18 = TRUE
+SPELL_21 = TRUE
+SPELL_16 = TRUE
+SPELL_87 = TRUE
+SPELL_71 = TRUE
+SPELL_55 = TRUE
+SPELL_77 = TRUE
+SPELL_44 = TRUE
+SPELL_80 = TRUE
+SPELL_82 = TRUE
+SPELL_85 = TRUE
+SPELL_60 = TRUE

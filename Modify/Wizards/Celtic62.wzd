@@ -1,0 +1,24 @@
+[GENERAL]
+Name = "Wuwei"
+MaxHealth = 610
+MaxMana = 125
+Intelligence = 30
+MagicResistance = 40
+ControlLimit = 1
+CombatModifier = 425
+DifficultyModifier = -50
+AggressiveAttack = 100
+CautiousAttack = 0
+OccupyPowerPoint = 0
+CollectMana = 120
+EvadeDetection = 0
+Scout = 90
+Retreat = 100
+CollectFood = 90
+ProtectWizard = 0
+WizardAnimFile = wuwei
+
+[START_SPELLS]
+SPELL_74 = TRUE
+SPELL_41 = TRUE
+SPELL_01 = TRUE

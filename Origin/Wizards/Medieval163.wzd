@@ -1,0 +1,34 @@
+[GENERAL]
+Name = "LawOverlord"
+MaxHealth = 3000
+MaxMana = 1500
+Intelligence = 200
+MagicResistance = 200
+ControlLimit = 15
+CombatModifier = 1000
+DifficultyModifier = 100
+AggressiveAttack = 100
+CautiousAttack = 0
+OccupyPowerPoint = 120
+CollectMana = 120
+EvadeDetection = 0
+Scout = 5
+Retreat = 100
+CollectFood = 0
+ProtectWizard = 90
+WizardAnimFile = Overlord
+
+[START_SPELLS]
+SPELL_20 = TRUE
+SPELL_05 = TRUE
+SPELL_07 = TRUE
+SPELL_04 = TRUE
+SPELL_68 = TRUE
+SPELL_50 = TRUE
+SPELL_83 = TRUE
+SPELL_78 = TRUE
+SPELL_74 = TRUE
+SPELL_38 = TRUE
+SPELL_43 = TRUE
+SPELL_81 = TRUE
+SPELL_54 = TRUE

@@ -1,0 +1,31 @@
+[GENERAL]
+Name = "Bagrif"
+MaxHealth = 900
+MaxMana = 200
+Intelligence = 50
+MagicResistance = 50
+ControlLimit = 18
+CombatModifier = 100
+DifficultyModifier = 100
+AggressiveAttack = 100
+CautiousAttack = 0
+OccupyPowerPoint = 120
+CollectMana = 120
+EvadeDetection = 0
+Scout = 90
+Retreat = 100
+CollectFood = 90
+ProtectWizard = 90
+WizardAnimFile = Med02
+
+[START_SPELLS]
+SPELL_14 = TRUE
+SPELL_21 = TRUE
+SPELL_34 = TRUE
+SPELL_71 = TRUE
+SPELL_75 = TRUE
+SPELL_68 = TRUE
+SPELL_83 = TRUE
+SPELL_38 = TRUE
+SPELL_69 = TRUE
+SPELL_54 = TRUE

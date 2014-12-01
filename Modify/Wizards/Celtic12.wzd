@@ -1,0 +1,22 @@
+[GENERAL]
+Name = "Lei"
+MaxHealth = 1000
+MaxMana = 450
+Intelligence = 30
+MagicResistance = 40
+ControlLimit = 4
+CombatModifier = 100
+DifficultyModifier = 0
+AggressiveAttack = 100
+CautiousAttack = 0
+OccupyPowerPoint = 120
+CollectMana = 0
+EvadeDetection = 0
+Scout = 90
+Retreat = 100
+CollectFood = 90
+ProtectWizard = 90
+WizardAnimFile = Greek Male
+
+[START_SPELLS]
+SPELL_41 = TRUE

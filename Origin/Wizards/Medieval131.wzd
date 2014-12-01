@@ -1,0 +1,29 @@
+[GENERAL]
+Name = "Valerin"
+MaxHealth = 980
+MaxMana = 275
+Intelligence = 50
+MagicResistance = 50
+ControlLimit = 25
+CombatModifier = 100
+DifficultyModifier = 100
+AggressiveAttack = 100
+CautiousAttack = 0
+OccupyPowerPoint = 120
+CollectMana = 120
+EvadeDetection = 0
+Scout = 90
+Retreat = 100
+CollectFood = 90
+ProtectWizard = 90
+WizardAnimFile = Medwizard01
+
+[START_SPELLS]
+SPELL_18 = TRUE
+SPELL_02 = TRUE
+SPELL_16 = TRUE
+SPELL_85 = TRUE
+SPELL_84 = TRUE
+SPELL_41 = TRUE
+SPELL_43 = TRUE
+SPELL_92 = TRUE

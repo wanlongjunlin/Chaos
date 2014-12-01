@@ -1,0 +1,30 @@
+[GENERAL]
+Name = "Ixion"
+MaxHealth = 850
+MaxMana = 160
+Intelligence = 50
+MagicResistance = 50
+ControlLimit = 6
+CombatModifier = 100
+DifficultyModifier = 100
+AggressiveAttack = 100
+CautiousAttack = 0
+OccupyPowerPoint = 120
+CollectMana = 0
+EvadeDetection = 0
+Scout = 90
+Retreat = 100
+CollectFood = 0
+ProtectWizard = 90
+WizardAnimFile = Greek Male
+
+[START_SPELLS]
+SPELL_14 = TRUE
+SPELL_13 = TRUE
+SPELL_08 = TRUE
+SPELL_11 = TRUE
+SPELL_71 = TRUE
+SPELL_80 = TRUE
+SPELL_78 = TRUE
+SPELL_42 = TRUE
+SPELL_52 = TRUE

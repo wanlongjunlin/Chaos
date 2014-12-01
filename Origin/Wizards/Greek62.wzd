@@ -1,0 +1,28 @@
+[GENERAL]
+Name = "Pancrea"
+MaxHealth = 650
+MaxMana = 170
+Intelligence = 50
+MagicResistance = 50
+ControlLimit = 16
+CombatModifier = 100
+DifficultyModifier = 100
+AggressiveAttack = 100
+CautiousAttack = 0
+OccupyPowerPoint = 120
+CollectMana = 120
+EvadeDetection = 0
+Scout = 90
+Retreat = 100
+CollectFood = 90
+ProtectWizard = 90
+WizardAnimFile = Greek Female
+
+[START_SPELLS]
+SPELL_14 = TRUE
+SPELL_13 = TRUE
+SPELL_11 = TRUE
+SPELL_75 = TRUE
+SPELL_50 = TRUE
+SPELL_42 = TRUE
+SPELL_65 = TRUE

@@ -1,0 +1,29 @@
+[GENERAL]
+Name = "Gurgurant"
+MaxHealth = 870
+MaxMana = 200
+Intelligence = 50
+MagicResistance = 50
+ControlLimit = 14
+CombatModifier = 100
+DifficultyModifier = 100
+AggressiveAttack = 100
+CautiousAttack = 0
+OccupyPowerPoint = 120
+CollectMana = 120
+EvadeDetection = 0
+Scout = 90
+Retreat = 100
+CollectFood = 90
+ProtectWizard = 90
+WizardAnimFile = Medwizard01
+
+[START_SPELLS]
+SPELL_03 = TRUE
+SPELL_13 = TRUE
+SPELL_73 = TRUE
+SPELL_78 = TRUE
+SPELL_74 = TRUE
+SPELL_41 = TRUE
+SPELL_69 = TRUE
+SPELL_70 = TRUE

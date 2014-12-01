@@ -1,0 +1,22 @@
+[GENERAL]
+Name = "Oracle"
+MaxHealth = 10000
+MaxMana = 10000
+Intelligence = 200
+MagicResistance = 200
+ControlLimit = 0
+CombatModifier = 500
+DifficultyModifier = 100
+AggressiveAttack = 0
+CautiousAttack = 0
+OccupyPowerPoint = 0
+CollectMana = 0
+EvadeDetection = 0
+Scout = 0
+Retreat = 100
+CollectFood = 0
+ProtectWizard = 90
+WizardAnimFile = Greek Female
+
+[START_SPELLS]
+SPELL_87 = TRUE

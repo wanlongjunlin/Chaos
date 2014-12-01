@@ -1,0 +1,26 @@
+[GENERAL]
+Name = "MaSaier"
+MaxHealth = 200
+MaxMana = 70
+Intelligence = 25
+MagicResistance = 40
+ControlLimit = 10
+CombatModifier = 100
+DifficultyModifier = 100
+AggressiveAttack = 100
+CautiousAttack = 0
+OccupyPowerPoint = 120
+CollectMana = 120
+EvadeDetection = 0
+Scout = 90
+Retreat = 100
+CollectFood = 90
+ProtectWizard = 90
+WizardAnimFile = CelticWizard
+
+[START_SPELLS]
+SPELL_03 = TRUE
+SPELL_15 = TRUE
+SPELL_34 = TRUE
+SPELL_73 = TRUE
+SPELL_74 = TRUE

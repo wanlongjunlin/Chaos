@@ -1,0 +1,29 @@
+[GENERAL]
+Name = "Tinky_Winky"
+MaxHealth = 600
+MaxMana = 200
+Intelligence = 50
+MagicResistance = 50
+ControlLimit = 12
+CombatModifier = 100
+DifficultyModifier = 100
+AggressiveAttack = 100
+CautiousAttack = 100
+OccupyPowerPoint = 120
+CollectMana = 100
+EvadeDetection = 0
+Scout = 25
+Retreat = 100
+CollectFood = 100
+ProtectWizard = 100
+WizardAnimFile = Medwizard01
+
+[START_SPELLS]
+SPELL_18 = TRUE
+SPELL_34 = TRUE
+SPELL_73 = TRUE
+SPELL_82 = TRUE
+SPELL_46 = TRUE
+SPELL_74 = TRUE
+SPELL_81 = TRUE
+SPELL_52 = TRUE

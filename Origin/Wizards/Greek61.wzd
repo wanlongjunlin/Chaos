@@ -1,0 +1,27 @@
+[GENERAL]
+Name = "Charon"
+MaxHealth = 750
+MaxMana = 50
+Intelligence = 50
+MagicResistance = 50
+ControlLimit = 4
+CombatModifier = 100
+DifficultyModifier = 100
+AggressiveAttack = 100
+CautiousAttack = 0
+OccupyPowerPoint = 0
+CollectMana = 120
+EvadeDetection = 0
+Scout = 90
+Retreat = 100
+CollectFood = 0
+ProtectWizard = 90
+WizardAnimFile = Greek Male
+
+[START_SPELLS]
+SPELL_13 = TRUE
+SPELL_72 = TRUE
+SPELL_46 = TRUE
+SPELL_83 = TRUE
+SPELL_79 = TRUE
+SPELL_52 = TRUE

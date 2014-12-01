@@ -1,0 +1,31 @@
+[GENERAL]
+Name = "ChaosOverlord"
+MaxHealth = 2000
+MaxMana = 1000
+Intelligence = 200
+MagicResistance = 200
+ControlLimit = 15
+CombatModifier = 500
+DifficultyModifier = 100
+AggressiveAttack = 100
+CautiousAttack = 0
+OccupyPowerPoint = 120
+CollectMana = 120
+EvadeDetection = 0
+Scout = 5
+Retreat = 100
+CollectFood = 0
+ProtectWizard = 90
+WizardAnimFile = Overlord
+
+[START_SPELLS]
+SPELL_23 = TRUE
+SPELL_12 = TRUE
+SPELL_09 = TRUE
+SPELL_13 = TRUE
+SPELL_62 = TRUE
+SPELL_46 = TRUE
+SPELL_33 = TRUE
+SPELL_42 = TRUE
+SPELL_79 = TRUE
+SPELL_52 = TRUE

@@ -1,0 +1,27 @@
+[GENERAL]
+Name = "Brasitas"
+MaxHealth = 960
+MaxMana = 265
+Intelligence = 50
+MagicResistance = 50
+ControlLimit = 25
+CombatModifier = 100
+DifficultyModifier = 100
+AggressiveAttack = 100
+CautiousAttack = 0
+OccupyPowerPoint = 120
+CollectMana = 120
+EvadeDetection = 0
+Scout = 90
+Retreat = 100
+CollectFood = 90
+ProtectWizard = 90
+WizardAnimFile = Medwizard01
+
+[START_SPELLS]
+SPELL_13 = TRUE
+SPELL_08 = TRUE
+SPELL_58 = TRUE
+SPELL_69 = TRUE
+SPELL_91 = TRUE
+SPELL_86 = TRUE

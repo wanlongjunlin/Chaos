@@ -1,0 +1,29 @@
+[GENERAL]
+Name = "Medea"
+MaxHealth = 850
+MaxMana = 180
+Intelligence = 50
+MagicResistance = 50
+ControlLimit = 14
+CombatModifier = 100
+DifficultyModifier = 100
+AggressiveAttack = 100
+CautiousAttack = 0
+OccupyPowerPoint = 120
+CollectMana = 120
+EvadeDetection = 0
+Scout = 90
+Retreat = 100
+CollectFood = 90
+ProtectWizard = 90
+WizardAnimFile = Greek Female
+
+[START_SPELLS]
+SPELL_16 = TRUE
+SPELL_08 = TRUE
+SPELL_87 = TRUE
+SPELL_68 = TRUE
+SPELL_82 = TRUE
+SPELL_33 = TRUE
+SPELL_78 = TRUE
+SPELL_74 = TRUE

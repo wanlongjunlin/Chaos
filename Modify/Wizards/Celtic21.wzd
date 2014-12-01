@@ -1,0 +1,24 @@
+[GENERAL]
+Name = "DiWusi"
+MaxHealth = 150
+MaxMana = 60
+Intelligence = 30
+MagicResistance = 40
+ControlLimit = 6
+CombatModifier = 100
+DifficultyModifier = 100
+AggressiveAttack = 100
+CautiousAttack = 0
+OccupyPowerPoint = 120
+CollectMana = 120
+EvadeDetection = 0
+Scout = 90
+Retreat = 100
+CollectFood = 90
+ProtectWizard = 90
+WizardAnimFile = CelticWizard
+
+[START_SPELLS]
+SPELL_10 = TRUE
+SPELL_19 = TRUE
+SPELL_73 = TRUE

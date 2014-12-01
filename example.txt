@@ -1,0 +1,152 @@
+===========基本条件===========
+EventType = NULL
+
+前置条件
+AllComplete = 
+Complete1 = 
+Incomplete1 = 
+
+A的生命值
+DependentCharacter = 
+MaximumHealth = 
+
+A的状态
+DependentCharacter = 
+DependentCharacterStatus = ALIVE_IN_BATTLE / DEAD_IN_BATTLE / EXITED_FROM_BATTLE
+
+A到达某地
+TriggerTarget = CHARACTER / CREATURE_TYPE
+TriggerCharacter = /
+TriggerLocation = 
+TriggerArmy =
+
+A不在某地
+DependentCharacter = 
+DependentLocation = 
+NotAtLocation = True
+
+A距离B多远
+DependentCharacter = 
+CharacterDiscovered = True / False
+RangeCharacter = 
+Range = 
+OutOfRange = 
+
+得到物品
+DependentCharacter = 
+CharactersArtefact = 
+DependentArtefactStatus = POSSESSED
+
+时间流逝
+TimeElapsed = 
+
+游戏难度
+MaximumDifficulty = 
+MinimumDifficulty = 
+
+敌对关系
+FirstArmy = 
+SecondArmy = 
+Hostile = True / False
+
+反复动作
+NumberOfActions = （-1为无限循环）
+
+============说话==========
+EventType = DIALOGUE
+SpeakingCharacter = 
+SpeakerStatus = / DEAD_IN_BATTLE
+ScrollType = 
+Portrait = 
+DontScrollBack = True
+SpeakerName = 
+Speech = 
+
+==========召唤生灵=============
+EventType = DEPLOYMENT
+DeployedCharacter = 
+DeploymentType = LOCATION / CHARACTER
+DeployedArmy = 
+Temporary = 
+DeploymentLocation = / DeployNextToCharacter = 
+CreatureType = 
+InitialHealth = 
+WanderRange = 0
+Rank = / LORD / KING
+Bloodlust = （嗜血）
+Haste = （加速）
+
+=========召唤巫师==============
+EventType = DEPLOYMENT
+DeployedCharacter = 
+DeploymentType = LOCATION
+DeployedArmy = 
+Temporary = 
+DeploymentLocation = 
+Wizard = True
+InitialHealth = 
+CanCastOnAllies = 
+Artefact1 = 
+
+==========出现物品=========
+EventType = DEPLOYMENT
+DeploymentType = LOCATION
+DeployedArtefact = 
+DeploymentLocation = 
+
+==========动作===========
+EventType = COMMAND
+CommandCharacter = 
+Interrupt = 
+Threshold = 0
+Rating = 100
+DestinationType = CHARACTER / LOCATION
+DestinationCharacter =  / DestinationLocation = 
+TargetCharacter = /
+
+========陷阱==============
+EventType = TRAP
+TrapTargetCharacter = / TrapTargetLocation = 
+TrapSpell = 
+SourceLocation = /
+TrapTarget = / TrapTarget = LOCATION
+
+========所属变更===========
+EventType = DIPLOMACY
+DiplomacyCharacter = 
+NewArmy = 
+
+=======改变敌对关系========
+EventType = DIPLOMACY
+DiplomacyArmy = 
+FriendlyArmy = / HostileArmy = 
+
+========共享视野==========
+EventType = DIPLOMACY
+ViewArmy = Twigkindle
+CanView = True
+DiplomacyArmy = Cornelius
+
+=======传送门===========
+EventType = PORTAL
+DependentCharacter = 
+PortalCharacter = 
+RangeFromCharacter = 
+
+
+=========经验值===========
+EventType = EXPERIENCE
+ExperienceText = 
+ExperiencePoints = 
+ExperienceType = CHARACTER
+ExperienceCharacter = 
+
+
+=========献祭============
+EventType = NULL
+NumberOfActions = 
+TriggerTarget = CREATURE_TYPE
+TriggerLocation = 
+TriggerArmy = 
+DeathActivate = True
+

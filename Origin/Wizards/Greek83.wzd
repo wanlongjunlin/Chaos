@@ -1,0 +1,29 @@
+[GENERAL]
+Name = "Lucan"
+MaxHealth = 800
+MaxMana = 180
+Intelligence = 50
+MagicResistance = 50
+ControlLimit = 5
+CombatModifier = 100
+DifficultyModifier = -50
+AggressiveAttack = 90
+CautiousAttack = 0
+OccupyPowerPoint = 120
+CollectMana = 120
+EvadeDetection = 0
+Scout = 90
+Retreat = 100
+CollectFood = 90
+ProtectWizard = 90
+WizardAnimFile = Lucan
+
+[START_SPELLS]
+SPELL_21 = TRUE
+SPELL_15 = TRUE
+SPELL_71 = TRUE
+SPELL_46 = TRUE
+SPELL_41 = TRUE
+SPELL_42 = TRUE
+SPELL_60 = TRUE
+SPELL_52 = TRUE

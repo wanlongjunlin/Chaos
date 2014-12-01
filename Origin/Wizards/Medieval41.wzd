@@ -1,0 +1,26 @@
+[GENERAL]
+Name = "Mordred"
+MaxHealth = 890
+MaxMana = 225
+Intelligence = 50
+MagicResistance = 50
+ControlLimit = 12
+CombatModifier = 100
+DifficultyModifier = 100
+AggressiveAttack = 100
+CautiousAttack = 0
+OccupyPowerPoint = 120
+CollectMana = 0
+EvadeDetection = 0
+Scout = 90
+Retreat = 10
+CollectFood = 10
+ProtectWizard = 50
+WizardAnimFile = Medwizard01
+
+[START_SPELLS]
+SPELL_19 = TRUE
+SPELL_10 = TRUE
+SPELL_76 = TRUE
+SPELL_41 = TRUE
+SPELL_38 = TRUE

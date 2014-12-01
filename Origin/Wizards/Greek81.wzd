@@ -1,0 +1,26 @@
+[GENERAL]
+Name = "Aeetes"
+MaxHealth = 850
+MaxMana = 180
+Intelligence = 50
+MagicResistance = 50
+ControlLimit = 7
+CombatModifier = 100
+DifficultyModifier = 100
+AggressiveAttack = 100
+CautiousAttack = 0
+OccupyPowerPoint = 120
+CollectMana = 120
+EvadeDetection = 0
+Scout = 90
+Retreat = 100
+CollectFood = 90
+ProtectWizard = 90
+WizardAnimFile = Greek Male
+
+[START_SPELLS]
+SPELL_09 = TRUE
+SPELL_87 = TRUE
+SPELL_50 = TRUE
+SPELL_33 = TRUE
+SPELL_78 = TRUE

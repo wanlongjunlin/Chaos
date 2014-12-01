@@ -1,0 +1,13 @@
+[GENERAL]
+Name = "Tutus_Magus"
+MaxHealth = 50
+MaxMana = 25
+Intelligence = 30
+MagicResistance = 40
+ControlLimit = 10
+CombatModifier = 50
+DifficultyModifier = 100
+WizardAnimFile = CelticWizard
+
+[START_SPELLS]
+SPELL_71 = TRUE

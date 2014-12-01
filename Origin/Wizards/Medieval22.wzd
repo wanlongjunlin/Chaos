@@ -1,0 +1,23 @@
+[GENERAL]
+Name = "Ackerhan"
+MaxHealth = 600
+MaxMana = 200
+Intelligence = 50
+MagicResistance = 50
+ControlLimit = 0
+CombatModifier = 100
+DifficultyModifier = 0
+AggressiveAttack = 100
+CautiousAttack = 0
+OccupyPowerPoint = 120
+CollectMana = 0
+EvadeDetection = 0
+Scout = 90
+Retreat = 70
+CollectFood = 0
+ProtectWizard = 0
+WizardAnimFile = Med02
+
+[START_SPELLS]
+SPELL_76 = TRUE
+SPELL_84 = TRUE

@@ -1,0 +1,27 @@
+[GENERAL]
+Name = "Ariadne"
+MaxHealth = 880
+MaxMana = 190
+Intelligence = 50
+MagicResistance = 50
+ControlLimit = 6
+CombatModifier = 100
+DifficultyModifier = -50
+AggressiveAttack = 90
+CautiousAttack = 0
+OccupyPowerPoint = 120
+CollectMana = 120
+EvadeDetection = 0
+Scout = 90
+Retreat = 100
+CollectFood = 90
+ProtectWizard = 100
+WizardAnimFile = Ariadne
+
+[START_SPELLS]
+SPELL_07 = TRUE
+SPELL_73 = TRUE
+SPELL_82 = TRUE
+SPELL_83 = TRUE
+SPELL_41 = TRUE
+SPELL_38 = TRUE

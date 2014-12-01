@@ -1,0 +1,23 @@
+[GENERAL]
+Name = "Overlord"
+MaxHealth = 10000
+MaxMana = 10000
+Intelligence = 200
+MagicResistance = 200
+ControlLimit = 0
+CombatModifier = 500
+DifficultyModifier = 100
+AggressiveAttack = 150
+CautiousAttack = 0
+OccupyPowerPoint = 0
+CollectMana = 0
+EvadeDetection = 0
+Scout = 5
+Retreat = 0
+CollectFood = 0
+ProtectWizard = 0
+WizardAnimFile = Overlord
+
+[START_SPELLS]
+SPELL_41 = TRUE
+SPELL_81 = TRUE

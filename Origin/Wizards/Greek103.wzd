@@ -1,0 +1,29 @@
+[GENERAL]
+Name = "Sisyphus"
+MaxHealth = 850
+MaxMana = 150
+Intelligence = 50
+MagicResistance = 50
+ControlLimit = 6
+CombatModifier = 100
+DifficultyModifier = 100
+AggressiveAttack = 100
+CautiousAttack = 0
+OccupyPowerPoint = 120
+CollectMana = 0
+EvadeDetection = 0
+Scout = 90
+Retreat = 100
+CollectFood = 0
+ProtectWizard = 90
+WizardAnimFile = Greek Male
+
+[START_SPELLS]
+SPELL_21 = TRUE
+SPELL_03 = TRUE
+SPELL_73 = TRUE
+SPELL_50 = TRUE
+SPELL_33 = TRUE
+SPELL_83 = TRUE
+SPELL_41 = TRUE
+SPELL_79 = TRUE

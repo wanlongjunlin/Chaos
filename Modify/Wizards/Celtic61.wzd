@@ -1,0 +1,28 @@
+[GENERAL]
+Name = "XiTeer"
+MaxHealth = 450
+MaxMana = 80
+Intelligence = 15
+MagicResistance = 40
+ControlLimit = 12
+CombatModifier = 100
+DifficultyModifier = 100
+AggressiveAttack = 100
+CautiousAttack = 0
+OccupyPowerPoint = 120
+CollectMana = 120
+EvadeDetection = 0
+Scout = 90
+Retreat = 100
+CollectFood = 90
+ProtectWizard = 90
+WizardAnimFile = Greek Female
+
+[START_SPELLS]
+SPELL_14 = TRUE
+SPELL_15 = TRUE
+SPELL_16 = TRUE
+SPELL_46 = TRUE
+SPELL_65 = TRUE
+SPELL_80 = TRUE
+SPELL_33 = TRUE

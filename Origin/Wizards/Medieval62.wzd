@@ -1,0 +1,28 @@
+[GENERAL]
+Name = "Mange"
+MaxHealth = 810
+MaxMana = 150
+Intelligence = 50
+MagicResistance = 50
+ControlLimit = 12
+CombatModifier = 100
+DifficultyModifier = 100
+AggressiveAttack = 100
+CautiousAttack = 0
+OccupyPowerPoint = 120
+CollectMana = 120
+EvadeDetection = 0
+Scout = 90
+Retreat = 100
+CollectFood = 90
+ProtectWizard = 90
+WizardAnimFile = Med02
+
+[START_SPELLS]
+SPELL_07 = TRUE
+SPELL_19 = TRUE
+SPELL_72 = TRUE
+SPELL_46 = TRUE
+SPELL_41 = TRUE
+SPELL_92 = TRUE
+SPELL_54 = TRUE

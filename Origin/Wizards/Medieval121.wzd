@@ -1,0 +1,35 @@
+[GENERAL]
+Name = "Morgause"
+MaxHealth = 970
+MaxMana = 270
+Intelligence = 50
+MagicResistance = 50
+ControlLimit = 25
+CombatModifier = 100
+DifficultyModifier = 100
+AggressiveAttack = 100
+CautiousAttack = 0
+OccupyPowerPoint = 120
+CollectMana = 120
+EvadeDetection = 0
+Scout = 90
+Retreat = 100
+CollectFood = 90
+ProtectWizard = 90
+WizardAnimFile = Greek Female
+
+[START_SPELLS]
+SPELL_20 = TRUE
+SPELL_23 = TRUE
+SPELL_87 = TRUE
+SPELL_44 = TRUE
+SPELL_82 = TRUE
+SPELL_76 = TRUE
+SPELL_41 = TRUE
+SPELL_38 = TRUE
+SPELL_43 = TRUE
+SPELL_69 = TRUE
+SPELL_70 = TRUE
+SPELL_86 = TRUE
+SPELL_54 = TRUE
+SPELL_52 = TRUE

@@ -1,0 +1,23 @@
+[GENERAL]
+Name = "Percival"
+MaxHealth = 1000
+MaxMana = 250
+Intelligence = 50
+MagicResistance = 50
+ControlLimit = 0
+CombatModifier = 500
+DifficultyModifier = 0
+AggressiveAttack = 90
+CautiousAttack = 0
+OccupyPowerPoint = 0
+CollectMana = 100
+EvadeDetection = 0
+Scout = 50
+Retreat = 100
+CollectFood = 90
+ProtectWizard = 0
+WizardAnimFile = Percival
+
+[START_SPELLS]
+SPELL_74 = TRUE
+SPELL_41 = TRUE

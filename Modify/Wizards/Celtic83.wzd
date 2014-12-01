@@ -1,0 +1,27 @@
+[GENERAL]
+Name = "MaXiao"
+MaxHealth = 650
+MaxMana = 125
+Intelligence = 50
+MagicResistance = 45
+ControlLimit = 5
+CombatModifier = 100
+DifficultyModifier = -50
+AggressiveAttack = 70
+CautiousAttack = 0
+OccupyPowerPoint = 60
+CollectMana = 120
+EvadeDetection = 0
+Scout = 90
+Retreat = 100
+CollectFood = 90
+ProtectWizard = 100
+WizardAnimFile = wizard3
+
+[START_SPELLS]
+SPELL_03 = TRUE
+SPELL_19 = TRUE
+SPELL_41 = TRUE
+SPELL_52 = TRUE
+SPELL_71 = TRUE
+SPELL_82 = TRUE

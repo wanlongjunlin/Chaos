@@ -1,0 +1,26 @@
+[GENERAL]
+Name = "HuoYisi"
+MaxHealth = 300
+MaxMana = 80
+Intelligence = 34
+MagicResistance = 45
+ControlLimit = 12
+CombatModifier = 100
+DifficultyModifier = 100
+AggressiveAttack = 100
+CautiousAttack = 0
+OccupyPowerPoint = 120
+CollectMana = 120
+EvadeDetection = 0
+Scout = 90
+Retreat = 100
+CollectFood = 90
+ProtectWizard = 90
+WizardAnimFile = CelticWizard
+
+[START_SPELLS]
+SPELL_03 = TRUE
+SPELL_71 = TRUE
+SPELL_74 = TRUE
+SPELL_35 = TRUE
+SPELL_11 = TRUE
